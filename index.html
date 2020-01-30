@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html>
+<head>
+
+	<style>
+		x-model{
+  			width:400px;
+  			height:400px;
+		}
+		  x-model:hover{
+    				animation: 10s spin linear infinite;
+  				}
+
+		  @keyframes spin {
+		    to {
+		      transform: rotateY(-1turn);
+		    }
+		  }
+
+
+
+</style>
+
+	<script src="js/three.js"></script>
+	<script src="js/three-obj-loader.js"></script>
+	<script src="js/model-element.min.js"></script>
+<body>
+<h1>Multimodal Spectrograms</h1>
+<p>Hover over 3D model to rotate. Click play button to sonify</p>
+<br>
+
+<h2>C0029</h2>
+
+<img src="c0029.png" alt="c0029">
+
+
+<x-model class="model" src="https://raw.githubusercontent.com/lucastemor/raw/master/c29.obj"></x-model>
+
+
+<br>
+<br>
+
+    <audio
+        controls
+        src="c29.m4a">
+            Your browser does not support the
+            <code>audio</code> element.
+    </audio>
+
+
+
+<br>
+
+<h2>C0071</h2>
+<img src="c0071.png" alt="c0071">
+
+
+<x-model class="model" src="https://raw.githubusercontent.com/lucastemor/raw/master/c71.obj"></x-model>
+
+<br>
+<br>
+
+    <audio
+        controls
+        src="c71.m4a">
+            Your browser does not support the
+            <code>audio</code> element.
+    </audio>
+
+<br>
+
+
+<h2>C0053</h2>
+<img src="c0053.png" alt="c0053">
+<x-model class="model" src="https://raw.githubusercontent.com/lucastemor/raw/master/c53.obj"></x-model>
+
+<br>
+<br>
+
+    <audio
+        controls
+        src="c53.m4a">
+            Your browser does not support the
+            <code>audio</code> element.
+    </audio>
+
+<br>
+
+
+</body>
+</html>
